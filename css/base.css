@@ -95,6 +95,7 @@ table{border-collapse:collapse;border-spacing:0;}
     background-image: url("../images/i6.png");
     background-repeat: repeat-x;
     background-position: center top;
+    background-size: 7rem;
     animation:move 40s infinite  linear;
 }
 @keyframes move{
