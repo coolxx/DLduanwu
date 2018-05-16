@@ -1,0 +1,200 @@
+.zg-wrap{
+    background: url("../images/c1.jpg") no-repeat center top #3a8d3e;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    overflow: hidden;
+}
+.point_out{
+    overflow: hidden;
+}
+.point_out img{
+    float: right;
+    margin-right: 0.35rem;
+    width: 2.11rem;
+}
+.main1{
+    margin-top: 0.18rem;
+    width: 7.2rem;
+    height: 2.97rem;
+    background: url("../images/c3.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    overflow: hidden;
+    position: relative;
+}
+.main1 h3{
+    margin: 0.62rem 0 0 2rem;
+    text-indent: -999rem;
+    width: 3.88rem;
+    height: 0.39rem;
+    background: url("../images/i4.png") no-repeat center;
+    -webkit-background-size: 3.89rem;
+    background-size: 3.89rem;
+}
+.zg_kyzx{
+    overflow: hidden;
+}
+.zg_kyzx a{
+    float: left;
+    margin: 0.37rem 0 0 0.38rem;
+    width: 2.18rem;
+    height: 0.52rem;
+    background: url("../images/c4.png") no-repeat center;
+    -webkit-background-size: 2.18rem;
+    background-size: 2.18rem;
+    text-align: center;
+    font: 0.22rem/0.52rem 'Microsoft YaHei';
+    color: #fff;
+}
+.zg_kyhy{
+    margin-top: 0.46rem;
+    height: 0.26rem;
+    background: url("../images/c5.png") no-repeat 1.64rem center;
+    -webkit-background-size: 0.36rem;
+    background-size: 0.36rem;
+    text-align: center;
+    text-indent: 2em;
+    font: 0.22rem/0.26rem 'Microsoft YaHei';
+    color: #fff;
+}
+.zg_kyhy span{
+    color: #f8ff40;
+}
+.zg_kybuy a{
+    display: block;
+    margin: 0.45rem auto 0.55rem;
+    width: 3.1rem;
+    height: 0.92rem;
+    background: #fff;
+    border-radius: 0.06rem;
+    overflow: hidden;
+}
+.zg_kybuy a span{
+    display: block;
+    text-align: center;
+    font: bold 0.22rem/1 'Microsoft YaHei';
+    margin:0.16rem auto 0;
+}
+.zg_kybuy a b{
+    display: block;
+    text-align: center;
+    font: bold 0.26rem/1 'Microsoft YaHei';
+    margin:0.11rem auto 0;
+    color: #e43441;
+}
+
+.zg_kybuy2{
+    margin-top: 0.24rem;
+    overflow: hidden;
+}
+.zg_kybuy2 a{
+    display: block;
+    margin: 0.23rem auto 0;
+    width: 3.1rem;
+    height: 0.6rem;
+    text-align: center;
+    font: bold 0.26rem/0.6rem 'Microsoft YaHei';
+    color: #217224;
+    background: #fff;
+    border-radius: 0.05rem;
+}
+.zg_kybuy2 a:last-child{
+    color: #e43441;
+}
+
+
+.zg_kyshow{
+    margin: 0.55rem auto 0;
+    width: 7rem;
+    border-radius: 0.35rem 0.35rem 0 0;
+    background: #f6fff9;
+}
+.zg_kyshow b{
+    display: block;
+    margin: 0 auto;
+    width: 6.44rem;
+    height: 0.9rem;
+    text-align: center;
+    font: bold 0.32rem/0.9rem 'Microsoft YaHei';
+    color: #217224;
+    border-bottom: 0.02rem dashed #217224;
+    background: url("../images/c6.png") no-repeat center;
+    -webkit-background-size: 2.74rem;
+    background-size: 2.74rem;
+}
+.show_cont1 img{
+    display: block;
+    margin: 0 auto;
+    width: 5.74rem;
+}
+.tishen{
+    height: 1.27rem;
+}
+
+.show_cont2{
+    width: 5.74rem;
+    margin: 0.16rem auto 0;
+    padding-bottom: 0.5rem;
+}
+.show_cont2 p{
+    border-bottom: 1px solid #d0d6d1;
+    font-size: 0;
+}
+.show_cont2 p:first-child span{
+    font-weight: bold;
+}
+.show_cont2 p span{
+    display: inline-block;
+    width: 2.87rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font: 0.22rem/0.5rem 'Microsoft YaHei';
+    text-align: center;
+    color: #332c2b;
+}
+.show_cont2 p span:first-child{
+    border-right: 1px solid #d0d6d1;
+}
+.zhulits{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.05rem;
+    margin-top: -3.3rem;
+    width: 6.1rem;
+    height: 2.53rem;
+    background: url("../images/c8.png") no-repeat center;
+    -webkit-background-size: 6.1rem;
+    background-size: 6.1rem;
+    overflow: hidden;
+}
+.zhulits b{
+    display: block;
+    text-align: center;
+    font: bold 0.38rem/0.68rem 'Microsoft YaHei';
+    margin-top: 0.5rem;
+}
+.zhulits b span{
+    color: #e43441;
+}
+.cjtoo{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -1.55rem;
+    margin-top: 1rem;
+    width: 3.1rem;
+    height: 1.5rem;
+    background: url("../images/c9.png") no-repeat center;
+    -webkit-background-size: 3.1rem;
+    background-size: 3.1rem;
+}
+.cjtoo a{
+    display: block;
+    height: 0.6rem;
+    text-align: center;
+    font: bold 0.26rem/0.6rem 'Microsoft YaHei';
+    color: #e43441;
+    margin-top: 0.9rem;
+}

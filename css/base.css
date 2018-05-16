@@ -1,0 +1,147 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.2rem;height:100%;}
+body,p,ul,ol,dl,dd,dt,p,h2,h3,h4,h5,h6{ margin:0; padding:0; font-size:0.14rem;text-indent:0;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{ *zoom:1; }
+.clear:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+
+.main{width: 7.2rem;margin: 0 auto}
+.zg-wrap{margin: 0 auto;width: 7.2rem;}
+/*头部*/
+.zg_header{
+    height: 0.5rem;
+    width: 100%;
+    background: #1b1b1b;
+}
+.logo{
+    width: 1.60rem;
+    height: 0.5rem;
+    margin-left: 0.1rem
+}
+.logo img{
+    width:1.60rem;
+    height: 0.5rem;
+}
+.phone{
+    font: bold 0.18rem/0.5rem "Microsoft YaHei";
+    margin-right: 0.1rem;
+    padding-left: 0.35rem;
+    background: url(../images/phone.png) no-repeat left center;
+    background-size: 0.26rem;
+}
+.phone a{
+    color: #fff;
+}
+
+/*课程*/
+.m1_p1{
+    margin: 0.18rem 0 0 1.97rem;
+    width: 3.93rem;
+    height: 0.46rem;
+    text-align: center;
+    font: 0.22rem/0.46rem 'Microsoft YaHei';
+    color: #fff;
+    background: #217224;
+    border-radius: 0.05rem;
+}
+.m1_p2 {
+    margin: 0.3rem 0 0 1.97rem;
+    width: 3.93rem;
+    overflow: hidden;
+}
+.m1_p2 span:first-child{
+    float: left;
+    font: 0.22rem/1 'Microsoft YaHei';
+    text-decoration: line-through;
+    height: 0.22rem;
+}
+.m1_p2 span:last-child{
+    float: right;
+    font: 0.22rem/1 'Microsoft YaHei';
+    color: #e43441;
+}
+.m1_p3{
+    margin: 0.37rem 0 0 1.97rem;
+    width: 3.93rem;
+    overflow: hidden;
+}
+.m1_p3 a{
+    float: left;
+    width: 1.72rem;
+    height: 0.52rem;
+    text-align: center;
+    font: 0.22rem/0.52rem 'Microsoft YaHei';
+    color: #fff;
+    background: url("../images/i5.png") no-repeat center;
+    -webkit-background-size: 1.72rem;
+    background-size: 1.72rem;
+}
+.m1_p3 a:last-child{
+    float: right;
+}
+.m1_p4{
+    position: absolute;
+    bottom: 0;
+    left: 0.1rem;
+    width: 7rem;
+    height: 0.45rem;
+    background-image: url("../images/i6.png");
+    background-repeat: repeat-x;
+    background-position: center top;
+    animation:move 40s infinite  linear;
+}
+@keyframes move{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 7rem 0;
+    }
+}
+.m1_p5{
+    animation:move2 30s infinite  linear;
+}
+@keyframes move2{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -7rem 0;
+    }
+}
+
+/*底部*/
+.fix{
+    width: 7.2rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 0.68rem;
+    z-index:999;
+}
+.fix a{
+    display: block;
+    flex:1;
+    height: 100%;
+    text-align: center;
+    line-height: 0.68rem;
+    font-size: 0.24rem;
+    color: #fff
+}
+.fix1{
+    background: url(../images/fix1.png) no-repeat 15% center #000;
+    -webkit-background-size: 0.46rem;
+    background-size: 0.46rem;
+}
+.fix2{
+    background: url(../images/fix2.png) no-repeat 15% center #e62929;
+    -webkit-background-size: 0.61rem;
+    background-size: 0.61rem;
+}

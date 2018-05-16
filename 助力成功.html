@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大连端午节</title>
+    <meta name="keywords" content="">
+    <meta name="Description" content="">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/zg_kyhd.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        function pgScale(){
+            var deviceWidth = document.documentElement.clientWidth;
+            if(deviceWidth > 720) deviceWidth = 720;
+            document.documentElement.style.fontSize = deviceWidth / 7.2 + 'px';
+        }
+        pgScale();
+        window.onresize=pgScale;
+        new WOW().init();
+    </script>
+</head>
+<body>
+<div class="zg-wrap" style="height: 100%;">
+    <div class="zhulits">
+        <b>
+            恭喜！<br>
+            成功助力好友<span>10元</span>
+        </b>
+    </div>
+    <p class="cjtoo">
+        <a href="">我也参加&gt;&gt;</a>
+    </p>
+    <div class="fix">
+        <a class="fix1" href="tel:400-6300-966" title="">400-6300-966</a>
+        <a class="fix2" onclick="NTKF.im_openInPageChat('kf_10176_1522033629076')" href="javascript:void(0)">在线咨询</a>
+    </div>
+</div>
+</body>
+</html>

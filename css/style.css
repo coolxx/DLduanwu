@@ -1,0 +1,99 @@
+
+
+.banner img{
+    display: block;
+    width: 7.2rem;
+}
+
+.banner{
+    width: 7.2rem;
+    height: 6rem;
+    position: relative;
+    background: url("../images/banner.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+}
+.banner b{
+    position: absolute;
+    left: 1.1rem;
+    top: 0.88rem;
+    width: 5.04rem;
+    height: 2.1rem;
+    background: url("../images/i1.png") no-repeat center;
+    -webkit-background-size: 5.04rem;
+    background-size: 5.04rem;
+    text-indent: -999rem;
+}
+.banner img{
+    position: absolute;
+    left: 1.92rem;
+    top: 3.1rem;
+    width: 3.36rem;
+}
+.zg_main1{
+    width: 7.2rem;
+    height: 3.77rem;
+    background: url("../images/i3.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    overflow: hidden;
+    position: relative;
+}
+.zg_main1 h3{
+    margin: 0.62rem 0 0 2rem;
+    text-indent: -999rem;
+    width: 3.88rem;
+    height: 0.39rem;
+    background: url("../images/i4.png") no-repeat center;
+    -webkit-background-size: 3.89rem;
+    background-size: 3.89rem;
+}
+
+
+.main2{
+    background: #3a8d3e;
+    overflow: hidden;
+}
+.main2 h2{
+    margin-top: 0.6rem;
+    text-indent: -999rem;
+    height: 0.33rem;
+    background: url("../images/i7.png") no-repeat center;
+    -webkit-background-size: 6.64rem;
+    background-size: 6.64rem;
+}
+.m2_cont{
+    margin: 0.57rem 0 0 -0.06rem;
+    overflow: hidden;
+}
+.m2_cont dl{
+    float: left;
+    margin-left: 0.36rem;
+    width: 3.12rem;
+}
+.m2_cont dt{
+    width: 3.12rem;
+    height: 0.42rem;
+    background: url("../images/i8.png") no-repeat 0.58rem center #fff;
+    -webkit-background-size: 0.33rem;
+    background-size: 0.33rem;
+    font-size: 0;
+    border-radius: 0.05rem;
+}
+.m2_cont dt b{
+    display: inline-block;
+    font: bold 0.24rem/0.42rem 'Microsoft YaHei';
+    color: #3a8d3e;
+    margin-left: 1.1rem;
+}
+.m2_cont dd{
+    padding-top: 0.16rem;
+    height: 1.2rem;
+    font: 0.22rem/2 'Microsoft YaHei';
+    color: #fff;
+}
+.ts{
+    height: 1.1rem;
+    background: #3a8d3e;
+}
+
